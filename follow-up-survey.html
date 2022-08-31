@@ -1,0 +1,199 @@
+<html>
+
+    <head>
+
+        <title>Follow Up Survery</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            
+            <div class="small_container">
+                <p>Follow Up Survey</p>
+            </div>
+
+            <div class="page_container">
+
+                <!--Table 1-->
+                <table>
+                    <tr>
+                        <td  class="service_usage">
+                            <p>When did you use our service?</p>
+                        </td>
+
+                        <td class="product_service">
+                            <p>Name of product or service</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="date" value="2022-08-30" class="date">
+                        </td>
+                            
+                        <td>
+                            <input type="text" class="text"><br>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p class="date_text">Date</p>
+                        </td>
+
+                    </tr>
+                </table>
+
+                <form>
+                    
+                    <!--Table 2-->
+                    <p class="question">Overall, how satisfied are you with the product or service?</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="radio" name="product_satisfaction" class="product_satisfaction">
+                                <label for="very_satisfied">Very satisfied</label>
+                            </td>
+
+                            <td class="edit">
+                                <input type="radio" name="product_satisfaction" class="product_satisfaction">
+                                <label for="satisfied">Satisfied</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="radio" name="product_satisfaction" class="product_satisfaction">
+                                <label for="neutral">Neutral</label>
+                            </td>
+
+                            <td class="edit">
+                                <input type="radio" name="product_satisfaction" class="product_satisfaction">
+                                <label for="unsatisfied">Unsatisfied</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="radio" name="product_satisfaction" class="product_satisfaction">
+                                <label for="very_unsatisfied">Very unsatisfied</label>
+                            </td>
+
+                            <td class="edit">
+                                <input type="radio" name="product_satisfaction" class="product_satisfaction">
+                                <label for="n/a">N/A</label>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!--Table 3-->
+                    <p class="question">Did our product or service meet your expectations?</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="radio" name="product_expectation" class="product_expectation">
+                                <label for="yes">Yes</label>
+                            </td>
+
+                            <td class="no">
+                                <input type="radio" name="product_expectation" class="product_expectation" checked>
+                                <label for="no">No</label>
+                            </td>
+
+                        </tr> 
+                    </table>
+
+                    <!--Table 4-->
+                    <p class="question">Would you recommend this product or service to a friend?</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="radio" name="product_recommendation" class="product_recommendation">
+                                <label for="yes">Yes</label>
+                            </td>
+
+                            <td class="no">
+                                <input type="radio" name="product_recommendation" class="product_recommendation" checked>
+                                <label for="no">No</label>
+                            </td>
+
+                        </tr>
+                    </table>
+
+                    <!--Table 5-->
+                    <p class="question">What aspect of the product or service were you most satisfied by?</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="radio" name="most_satisfied" class="most_satisfied">
+                                <label for="quality">Quality</label>
+                            </td>
+
+                            <td class="edit">
+                                <input type="radio" name="most_satisfied" class="most_satisfied">
+                                <label for="price">Price</label>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="radio" name="most_satisfied" class="most_satisfied">
+                                <label for="customer_service">Customer service</label>
+                            </td>
+
+                            <td class="edit">
+                                <input type="radio" name="most_satisfied" class="most_satisfied">
+                                <label for="experience">Installation or first use experience</label><br>
+                            </td>
+
+                        </tr>
+
+
+                    </table>
+
+                    <!--Table 6-->
+                    <p class="question">What aspect of the product or service were you most satisfied by?</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="radio" name="least_satisfied" class="least_satisfied">
+                                <label for="quality">Quality</label>
+                            </td>
+
+                            <td class="edit">
+                                <input type="radio" name="least_satisfied" class="least_satisfied">
+                                <label for="price">Price</label>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="radio" name="least_satisfied" class="least_satisfied">
+                                <label for="customer_service">Customer service</label>
+                            </td>
+
+                            <td class="edit">
+                                <input type="radio" name="least_satisfied" class="least_satisfied">
+                                <label for="experience">Installation or first use experience</label><br>
+                            </td>
+
+                        </tr>
+                    </table>
+
+                    <p class="additional_comment">Additional comments:</p>
+                    <textarea placeholder="Type here..."></textarea><br/>
+
+                    <input type="submit" class="submit">
+
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>
